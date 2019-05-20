@@ -1,0 +1,117 @@
+body {
+  background: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+.box {
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 8%;
+  height: 600px;
+  width: 600px;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.lolli {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background: radial-gradient(#F80C79 5%, #c60960 60%);
+  border-radius: 50%;
+  top: 10%;
+  left: 40%;
+  box-shadow: 15px 5px 5px rgba(128, 0, 0, 0.2);
+}
+
+.lolli:after {
+  content: "";
+  position: absolute;
+  height: 15%;
+  width: 110%;
+  background: linear-gradient(#c60960, #F80C79);
+  border-radius: 5px;
+  top: 45%;
+  left: -5%;
+}
+
+.stick {
+  position: absolute;
+  height: 60%;
+  width: 3%;
+  background: #FAFAFA;
+  border-radius: 5px;
+  top: 40%;
+  left: 55%;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.5), inset 0 6px 6px black;
+}
+
+.lolli_2 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background: radial-gradient(#0F63F0 5%, #0a45a8 60%);
+  border-radius: 50%;
+  top: 20%;
+  left: 10%;
+  box-shadow: 15px 5px 5px rgba(128, 0, 0, 0.2);
+  transform: rotate(-15deg);
+}
+
+.lolli_2:after {
+  content: "";
+  position: absolute;
+  height: 15%;
+  width: 110%;
+  background: linear-gradient(#0a45a8, #0F63F0);
+  border-radius: 5px;
+  top: 45%;
+  left: -5%;
+}
+
+.stick_2 {
+  position: absolute;
+  height: 50%;
+  width: 3%;
+  background: #FAFAFA;
+  border-radius: 5px;
+  top: 50%;
+  left: 37%;
+  box-shadow: 15px 5px 15px rgba(128, 0, 0, 0.2), inset 0 6px 6px black;
+  transform: rotate(-15deg);
+}
+
+.lolli_3 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background: radial-gradient(#00ff00 5%, #00cc00 60%);
+  border-radius: 50%;
+  top: 17%;
+  right: 3%;
+  box-shadow: 15px 5px 5px rgba(128, 0, 0, 0.2);
+  transform: rotate(15deg);
+}
+
+.lolli_3:after {
+  content: "";
+  position: absolute;
+  height: 15%;
+  width: 110%;
+  background: linear-gradient(#00cc00, #00ff00);
+  border-radius: 5px;
+  top: 45%;
+  left: -5%;
+}
+
+.stick_3 {
+  position: absolute;
+  height: 55%;
+  width: 3%;
+  background: #FAFAFA;
+  border-radius: 5px;
+  top: 45%;
+  right: 30%;
+  box-shadow: 15px 5px 15px rgba(128, 0, 0, 0.2), inset 0 6px 6px black;
+  transform: rotate(15deg);
+}
